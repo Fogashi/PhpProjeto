@@ -1,0 +1,100 @@
+/* Estilo para a div que envolve os formulários */
+#form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilo para os formulários */
+  form {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Centralize os formulários horizontalmente */
+  form {
+    margin: 0 auto;
+  }
+  
+  /* Estilo para os ícones */
+  i {
+    position: absolute;
+    margin: 12px;
+    color: #555;
+  }
+  
+  /* Estilo para os campos de entrada */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Estilo para o botão */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para o botão quando hover */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo para o checkbox e o texto "Lembrar Login" */
+  .divCheck {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Espaçamento entre os elementos */
+  .divCheck input[type="checkbox"] {
+    margin: 0 5px 0 0;
+  }
+  
+  /* Centralizar o texto "Lembrar Login" */
+  .divCheck span {
+    margin: 0 auto;
+  }
+  
+  /* Estilo para o segundo campo de senha */
+  .senha2 {
+    position: absolute;
+    margin: 12px;
+    color: #555;
+    left: 46%;
+    top: 155px;
+  }
+
+  body{
+    background: linear-gradient(to bottom, #3498db, #9b59b6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff; 
+}
+/* Estilo para o checkbox e o texto "Lembrar Login" */
+.divCheck {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Estilize o texto do checkbox para torná-lo visível */
+  .divCheck span {
+    color: #333; /* Defina uma cor de texto legível, como cinza escuro (#333) */
+    margin: 0 auto;
+  }
